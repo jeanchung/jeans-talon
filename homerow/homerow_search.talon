@@ -3,7 +3,7 @@ tag: user.homerow_search
 (pick | pic): user.homerow_pick("", false)
 (pick | pic) <user.letters>: user.homerow_pick(letters, false)
 
-(right-pick | right-pic): user.homerow_right_pick("", false)
+(right pick | right pic): user.homerow_right_pick("", false)
 (right pick | right pic | righty pick | righty pic) <user.letters>: user.homerow_right_pick(letters, false)
 
 (hover | hoover): user.homerow_hover("")
