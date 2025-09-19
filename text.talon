@@ -12,3 +12,6 @@ dedent: edit.indent_less()
 .
 ^insert code$:
   user.insert_between("`", "`")
+
+^jira key <user.number_string>:
+  insert("RAD-{number_string}")
